@@ -1,0 +1,15 @@
+Project :- JWTDemo
+Ref:-Youtube - Nehanth World - JWT Token based authentication in AspNetCore WebApi C# 3.1,3.0
+
+Create a project with webapi core3.1
+
+Add secret Key in appsetting.json
+create a class named AppSettings and having a prop Key.
+Now Go to Startup.cs. --> read key from appsetting.json. and write some line of code in ConfigureService method
+
+
+install package :- Microsoft.AspNetCore.Authentication.JwtBearer
+
+Now add a controller AuthenticationController
+
+Now we are using git  and git hub
